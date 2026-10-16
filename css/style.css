@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 40px;
+    background-color: #000;
+    color: #fff;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+img {
+    width: 300px;
+    float: left;
+    margin: 0 40px 30px 0;
+    border-radius: 10px;
+}
+
+.title {
+    text-align: left;
+    font-size: 38px;
+    margin: 0 40px 10px 0;
+}
+
+.descricao {
+    max-width: 900px;
+    margin: 0 auto 15px;
+    line-height: 1.7;
+    color: #fff;
+    text-align: justify;
+}
+
+.descricao a {
+    color: #2c833b;
+    text-decoration: none;
+}
+
+.descricao a:hover {
+    color: #2c833b;
+    text-decoration: underline;
+}
+
+.home {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.home-link {
+    display: block;
+    margin-bottom: 40px;
+    color: #888;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.descricao-home {
+    font-size: 18px;
+}
+
+.livros {
+    width: fit-content;
+    margin: 50px auto 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.livros li {
+    margin-bottom: 12px;
+}
+
+.livros a {
+    text-decoration: none;
+}
+
+.livros a:hover {
+    text-decoration: underline;
+}
+
+.adicionar {
+    text-align: center;
+    font-size: 16px;
+    text-decoration: underline;
+    color: #fff;
+}
+
+.footer-home {
+    text-align: center;
+    margin-top: 18%;
+}
+
+.footer-home a {
+    color: #eee;
+    text-decoration: none;
+}
+
+form {
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: #000;
+}
+
+h2 { 
+    text-align: center; 
+} 
+
+label { 
+    display: block; 
+    margin-top: 10px; 
+    margin-bottom: 5px; 
+}
+
+input,textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 1px solid #888;
+    color: white;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) and (max-width: 900px) {
+
+    body {
+        padding: 20px;
+    }
+
+    img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .title {
+        font-size: 34px;
+        margin-bottom: 25px;
+    }
+
+    .descricao {
+        font-size: 14px;
+        line-height: 1.6;
+        text-align: justify;
+    }
+
+    .home-link {
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
+
+    .home {
+        margin-top: 30%;
+    }
+}
